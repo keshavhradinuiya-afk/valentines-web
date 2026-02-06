@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Valentine ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEART BACKGROUND -->
+<div class="hearts"></div>
+
+<!-- PROPOSAL -->
+<div id="proposal" class="box">
+    <h1>Will you be mine? 💖</h1>
+    <button id="yesBtn">YES 💕</button>
+    <button id="noBtn">NO 😜</button>
+</div>
+
+<!-- VALENTINE SCREEN -->
+<div id="valentine" class="box hidden">
+    <h1>Happy Valentine’s Day 💝</h1>
+    <h2>My Princess 👑 My BooBoo 🧸</h2>
+
+    <button onclick="openGift(1)">🎁 Gift 1</button>
+    <button onclick="openGift(2)">🎁 Gift 2</button>
+    <button onclick="openGift(3)">🎁 Gift 3</button>
+</div>
+
+<!-- GIFT 1 -->
+<div id="gift1" class="box hidden">
+    <h2>💘 Answer These 💘</h2>
+
+    <div class="question active">
+        <p>Who is the most handsome man?</p>
+        <button onclick="nextQ()">Suyash 😎</button>
+        <button onclick="nextQ()">Suyash 😍</button>
+        <button onclick="nextQ()">Suyash 🥰</button>
+    </div>
+
+    <div class="question">
+        <p>Who loves you the most?</p>
+        <button onclick="nextQ()">Suyash ❤️</button>
+        <button onclick="nextQ()">Suyash 💖</button>
+        <button onclick="nextQ()">Suyash 💞</button>
+    </div>
+
+    <div class="question">
+        <p>Who is your forever?</p>
+        <button onclick="nextQ()">Suyash 💍</button>
+        <button onclick="nextQ()">Suyash 👑</button>
+        <button onclick="nextQ()">Suyash 🫶</button>
+    </div>
+
+    <div class="question">
+        <p>Who makes you smile daily?</p>
+        <button onclick="nextQ()">Suyash 😊</button>
+        <button onclick="nextQ()">Suyash 😘</button>
+        <button onclick="nextQ()">Suyash 😁</button>
+    </div>
+
+    <div class="question">
+        <p>Who is the luckiest girl?</p>
+        <button>YOU ❤️</button>
+        <button>YOU 😍</button>
+        <button>YOU 💖</button>
+    </div>
+</div>
+
+<!-- GIFT 2 -->
+<div id="gift2" class="box hidden">
+    <h2>📸 Our Cute Memories 💕</h2>
+  <div class="gallery">
+  <img src="images/pic1.jpeg">
+  <img src="images/pic2.jpeg">
+  <img src="images/pic3.jpeg">
+  <img src="images/pic4.jpeg">
+  <img src="images/pic5.jpeg">
+  <img src="images/pic6.jpeg">
+  <img src ="images/pic7.jpeg">
+  <img src ="images/pic8.jpeg">
+</div>
+
+
+</div>
+
+<!-- GIFT 3 -->
+<div id="gift3" class="box hidden">
+    <h2>💌 For You</h2>
+    <p class="love-text">
+        Cheenuuuu happy Valentine day my bachhaa ❤️<br><br>
+        You mean a lot to me. Thank you so much for every second you shared with me.<br><br>
+        I love you so so so much. Will you please be my Valentine pleaseeeeee...?<br><br>
+        Abhi khush rehte hai na bas. Baki jaisa tum chahti ho sab waisa hi rahega babyyy.
+        I promise and assure you that…<br><br>
+        I miss you, I love you, I need you mentally, physically, emotionally mere jaannnnnnnnn 💖
+    </p>
+    <button onclick="surprise()">💖 Click Me 💖</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
